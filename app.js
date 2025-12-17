@@ -435,7 +435,7 @@ app.get('/', (req, res) => {
           })
             .then(res => res.json())
             .then(data => {
-              alert('제출되었습니다!');
+              alert('제출되었습니다!!');
               event.target.reset();
               loadSubmissions();
             });
